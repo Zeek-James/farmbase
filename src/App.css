@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #fff;
+}
+
+.h-container {
+  position: relative;
+  top: 0;
+  left: 0;
+  background: url("./utilies//images/images (1).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+
+.dart {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #333;
+  opacity: 0.8;
+}
+
+.base_Container {
+  position: relative;
+  top: 0;
+  left: 0;
+  max-height: 300px;
+  color: #fff;
+  background: #333;
+}
+
+   .each-fade img{
+       height: 100vh;
+       /* width: 100vw; */
+       object-fit: contain;
+   }
+
+   img{
+     max-height: 300px;
+     object-fit: contain;
+   }
+
+   .posi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    z-index: 10;
+    transition: 0.5s ease-in all;
+    color: #fff;
+   }
+
+  
+
+   .scroll {
+    box-shadow: 2px 2px 5px #000;
+    color: #333;
+  }
+  
